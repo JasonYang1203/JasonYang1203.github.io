@@ -1,0 +1,67 @@
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 0.5em;
+    color: black;
+}
+
+.introduction{
+    font-size: large;
+    text-align: center;
+    margin-bottom: 2.0em;
+}
+
+.selfie{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 30em;
+    width: fit-content;
+}
+
+.Hobby{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    margin-top: 3.0em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.course-table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.course-table th, .course-table td {
+    border: 1.5px solid ;
+    padding: 10px;
+    text-align: center;
+}
+
+.work-container{
+    display: felx;
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+    padding-top: 5em;
+    width: 80%;  
+}
+
+.download-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+
+
+
